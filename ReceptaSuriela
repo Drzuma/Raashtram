@@ -1,0 +1,145 @@
+.receptaSur {
+ position: relative;
+  text-align: left;
+  color: #000000; 
+  font-weight: bold;
+ 
+}
+
+.receptaSurtekst {
+  position: absolute;
+  top: 19%;
+  left: 26%;
+  max-width: 358px;
+  max-height: 130px;
+  overflow-y: auto;
+overflow-x: hidden;
+  text-align: justify;
+  text-justify: auto;
+  text-shadow: 0px 0px 10px #fadea7;
+  transform:rotate(-6deg);
+  -webkit-transform:rotate(-6deg);
+  -moz-transform:rotate(-6deg); 
+  -o-transform:rotate(-6deg);
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+/*****karta pacjenta Suriela******/
+
+.FTIMBE {
+margin:auto; 
+width:500px; height:225px; overflow:hidden;
+text-align:left; font-family:Arial; line-height:16px;
+}  
+.cdtFTIMBE {
+position:absolute; margin-top:65px; margin-left:487px;
+transform:scale(0); -webkit-transform:scale(0); transition:all 0.5s ease; -webkit-transition:all 0.5s ease;
+}
+.FTIMBE:hover .cdtFTIMBE {
+transform:scale(0.7); -webkit-transform:scale(0.7);
+} 
+.topFTIMBE {
+transition:all 0.45s; -webkit-transition:all 0.45s;
+}
+.FTIMBE:hover .topFTIMBE {
+margin-top:-225px;
+}
+.btmFTIMBE {
+width:478px; padding:10px; border:1px solid;
+text-align:left; font-family:Arial; line-height:16px; 
+} 
+.storyFTIMBE {
+display:inline-block; vertical-align:top;
+width:237px; height:145px; padding-right:5px; overflow:hidden;
+text-align:justify; font-size:11px; line-height:14.5px;
+}
+.storyFTIMBE:hover {
+overflow-y:auto;
+}
+.borderFTIMBE {
+display:inline-block; vertical-align:middle; margin:0 5px; 
+width:1px; height:145px;
+}
+.boxFTIMBE {
+display:inline-block; vertical-align:middle; 
+width:225px; text-align:center; 
+}
+.imgFTIMBE img {
+max-height:50px; width:250px;
+}
+.imgFTIMBE img:nth-of-type(2) {
+margin:0 15px;
+}
+.abtFTIMBE {
+margin-left:10px; padding-top:12px;
+}
+.abtFTIMBE span {
+display:block;
+max-width:210px; padding-top:3px; border-bottom:1px solid;
+text-align:center; letter-spacing:0.5px; text-transform:uppercase; font-size:9px; line-height:14px;
+}
+.adjFTIMBE {
+margin-top:5px;
+}
+.adjFTIMBE span {
+display:inline-block; vertical-align:top; margin-top:5px;
+width:155px; height:14px; padding:3px 0; overflow:hidden;
+text-align:center; text-transform:uppercase; font-size:10px; line-height:12px;
+}
+.adjFTIMBE span:nth-of-type(2) {
+margin:5px 5px 0; width:158px;
+}
+.adjFTIMBE span:nth-of-type(5) {
+margin:5px 5px 0; width:158px;
+}
+
+
+.TIMBE {
+margin:auto; width:500px; 
+text-align:left; font-family:Arial; line-height:16px;
+}  
+.cdtTIMBE {
+position:absolute; margin-top:45px; margin-left:487px;
+transform:scale(0); -webkit-transform:scale(0); transition:all 0.5s ease; -webkit-transition:all 0.5s ease;
+}
+.TIMBE:hover .cdtTIMBE {
+transform:scale(0.7); -webkit-transform:scale(0.7);
+}
+.lksTIMBE {
+margin:0 auto 5px; 
+width:478px; height:90px; padding:10px; border:1px solid;
+text-align:left; font-family:Arial; line-height:16px;
+}
+.boxTIMBE {
+display:inline-block; vertical-align:middle; 
+width:120px; max-height:90px; overflow:hidden;
+}
+.npTIMBE {
+display:inline-block; vertical-align:middle; 
+width:120px; 
+text-align:center; font-weight:bold; text-transform:uppercase; font-size:16px; line-height:18px; 
+}
+.rsTIMBE {
+margin-top:3px; padding-top:2px; border-top:1px solid;
+text-align:center; letter-spacing:0.5px; text-transform:uppercase; font-size:9px; line-height:14px;
+}
+.imgTIMBE {
+display:inline-block; vertical-align:middle; margin-left:10px;
+width:75px; height:75px; padding:3px; border:1px solid;
+}
+.imgTIMBE img {
+width:75px; height:75px;
+}
+.borderTIMBE {
+display:inline-block; vertical-align:middle; margin:0 10px; 
+width:1px; height:90px;
+}
+.descTIMBE {
+display:inline-block; vertical-align:top;
+width:242px; height:90px; overflow:hidden;
+text-align:justify; font-size:11px; line-height:15px;
+}
+.descTIMBE:hover {
+width:237px; padding-right:5px; overflow-y:auto;
+}
